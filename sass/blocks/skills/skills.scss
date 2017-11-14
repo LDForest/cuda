@@ -1,0 +1,6 @@
+.skills{
+	background-color: #FFF;
+	&__wrapper{
+		@extend %wrapper;
+	}
+}

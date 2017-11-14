@@ -1,0 +1,10 @@
+
+@mixin heading($text-color) {
+	&__head{
+		color:$text-color;
+	}
+
+	&__description{
+		color: $text-color;
+	}
+}

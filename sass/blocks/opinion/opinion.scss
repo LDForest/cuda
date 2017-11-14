@@ -1,0 +1,6 @@
+.opinions{
+	background: #d74680;
+	&__wrapper{
+		@extend %wrapper;
+	}
+}

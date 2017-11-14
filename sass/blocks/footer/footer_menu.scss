@@ -1,0 +1,30 @@
+.footer-menu{
+	&__social{
+		display: inline-flex;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__social-name{
+	list-style: none;
+	font-family: $TitiLLium;
+	font-weight: 600;
+	font-size: 24px;
+	padding: 47px 0px 47px 60px;
+	&:last-child{
+		padding-right: 0px;
+		}
+	}
+
+&__social-href{
+	text-decoration: none;
+	color: $white-color;
+	transition: 0.3s;
+	&:hover{
+		color: #30bae7;
+	}
+
+}
+
+}

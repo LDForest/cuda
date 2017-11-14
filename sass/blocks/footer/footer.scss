@@ -1,0 +1,6 @@
+.footer{
+	background: #344b8e;
+	&__wrapper {
+		@extend %wrapper;
+	}
+}

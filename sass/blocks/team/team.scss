@@ -1,0 +1,6 @@
+.team{
+	background-color: #e7f1f8;
+	&__wrapper{
+		@extend %wrapper;
+	}
+}

@@ -1,0 +1,20 @@
+.top-section{
+	background: #87509c;
+	width:100%;
+
+	&__wrapper {
+		@extend %wrapper;
+	}
+	&__center{
+		text-align: center;
+	}
+	&__button{
+		@extend %button;
+		box-shadow: 0px 4px 0px 0px rgb(200, 106, 64);
+		background-color: #eb7d4b;
+	}
+}
+
+// .top-test {
+// 	@include test();
+// }

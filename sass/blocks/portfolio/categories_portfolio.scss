@@ -1,0 +1,29 @@
+.categories{
+	display: flex;
+	justify-content: center;
+	font-family: $TitiLLium;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 45px 0px 60px;
+	&__menu{
+		display: inline-flex;
+		list-style: none;
+	}
+	&__href{
+		text-decoration: none;
+		color: #000;
+		background: #ebc985;
+		padding: 6px 25px;
+		margin-right: 10px;
+		border-radius: 4px;
+	}
+
+}
+.tab{
+	transition: 0.3s;
+}
+.tab_active{
+	background: #fff;
+}

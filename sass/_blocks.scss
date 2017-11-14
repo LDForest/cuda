@@ -1,0 +1,46 @@
+@import "./blocks/top-section/index";
+@import "./blocks/services/index";
+@import "./blocks/team/index";
+@import "./blocks/skills/index";
+@import "./blocks/portfolio/index";
+@import "./blocks/opinion/index";
+@import "./blocks/form/index";
+@import "./blocks/footer/index";
+
+.heading {
+	text-align: center;
+	padding-top: 104px;
+	cursor: context-menu;
+	&__head{
+		font-size: 40px;
+		font-family: $TitiLLium;
+		position: relative;
+		padding-bottom: 10px;
+		font-weight: 700;
+		letter-spacing: 4px;
+		&:after{
+			content: '';
+			width: 90px;
+			height: 4px;
+			position: absolute;
+			left: calc(50% - 45px);
+			bottom: 0;
+			background: rgba(0, 0, 0, 0.15);
+	}
+	}
+
+	&__description{
+		font-size: 18px;
+		padding-top: 20px;
+		font-family: $TitiLLium;
+		font-weight: 400;
+	}
+
+
+	&_white &{
+		@include heading($white-color);
+	}
+	&_blue &{
+		@include heading($blue-color);
+	}
+}

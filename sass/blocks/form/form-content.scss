@@ -1,0 +1,52 @@
+.form-content{
+	display: float;
+	margin:75px 120px 0px;
+	color: $white-color;
+	font-family: $TitiLLium;
+	// font-weight: 400;
+	font-size: 18px;
+
+	&__name{
+		float: left;
+	}
+
+	&__mail{
+		float: right;
+	}
+
+	&__input{
+		background: #273a71;
+		border: none;
+		width: 414px;
+		height: 56px;
+		border-radius: 4px;
+		padding-left: 122px;
+		font-weight: normal;
+	}
+
+	&__label{
+		position: absolute;
+		padding-top:15px;
+		padding-left:25px;
+	}
+
+	&__label-text>sup{
+		color: #ff4444;
+		}
+
+	&__message{
+		clear: both;
+		padding-top: 30px;
+	}
+
+	&__message-text{
+		background: #273a71;
+		border:none;
+		border-radius: 4px;
+		width: 860px;
+		height: 200px;
+		padding-top:15px;
+		padding-left:140px;
+	}
+}
+

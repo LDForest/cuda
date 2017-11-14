@@ -1,0 +1,36 @@
+.team-people{
+	display: flex;
+	justify-content: space-between;
+	margin: 120px 0px;
+	text-align: center;
+	font-family: $TitiLLium;
+
+	&__name{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 42px;
+	}
+
+	&__sign{
+		font-weight: 400;
+		font-size: 16px;
+		color: $color-sign;
+	}
+	&__description{
+		padding-top: 18px;
+	}
+	&__social{
+	margin: 33px 0px 120px;
+	font-size: 0px;
+	}
+	&__social>img{
+		padding-right: 10px;
+	}
+	&__social>img:last-child{
+		padding-right:0px;
+	}
+	&__img{
+		border-radius: 50%;
+	}
+}

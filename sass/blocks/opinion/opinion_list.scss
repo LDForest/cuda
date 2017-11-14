@@ -1,0 +1,48 @@
+.opinion{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	font-family: $TitiLLium;
+	margin-top: 80px;
+
+	&__block{
+		
+	}
+
+	&__photo{
+		float:left;
+	}
+		&__photo>img{
+			border-radius: 50%;
+		}
+
+	&__text{
+		padding-left: 50px;
+		margin-bottom: 150px;
+		float:right;
+		max-width: 433px;
+	}
+
+	&__say{
+		font-style: italic;
+		font-size: 21px;
+		color: $white-color;
+		margin-bottom: 19px;
+	}
+
+	&__name{
+		font-weight: 700;
+		color: $white-color;
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+
+	&__sign{
+		font-weight: 400;
+		color: #ffdd99;
+		font-size: 18px;
+	}
+
+	&__photo{
+	}
+}

@@ -1,0 +1,6 @@
+.service{
+	background-color: #17c2a4;
+	&__wrapper {
+		@extend %wrapper;
+	}
+}

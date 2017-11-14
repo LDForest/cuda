@@ -1,0 +1,22 @@
+*{
+   box-sizing: border-box;
+}
+%wrapper {
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+%button{
+	border:none;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 18px 79px;
+	color:$white-color;
+	font-size: 19px;
+	border-radius:5px;
+	margin: 58px 0px 150px;
+	font-family: $TitiLLium;
+	font-weight: 600;
+
+}

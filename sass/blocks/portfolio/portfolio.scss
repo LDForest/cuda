@@ -1,0 +1,14 @@
+.portfolio{
+	background: #ffdd99;
+	&__wrapper{
+		@extend %wrapper;
+	}
+	&__center{
+		text-align: center;
+	}
+	&__button{
+		@extend %button;
+		box-shadow: 0px 4px 0px 0px rgb(20, 165, 140);
+		background-color: #17c2a4;
+	}
+}
