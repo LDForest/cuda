@@ -1,4 +1,5 @@
 import Circles from 'Circles';
+
 const circles = document.querySelectorAll('.circle')
 const colors = ["#30bae7", "#d74680", "#15c7a8", "#eb7d4b"]
 
